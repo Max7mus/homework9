@@ -1,0 +1,55 @@
+* {
+    display: block;
+    margin: 0;
+}
+
+div {
+    display: flex;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    width: 170px;
+}
+
+span {
+    width: 100%;
+    text-align: center;
+}
+
+.wrapper {
+    background-color: #f7c251cb;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    min-height: 720px;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    height: 350px;
+    background-color: white;
+}
+
+.card-content {
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.gold {
+    height: 400px; 
+}
+
+.head {
+    color: rgb(6, 100, 6);
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.foot {
+    color: black;
+    font-size: 30px;
+}
